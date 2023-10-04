@@ -1,0 +1,43 @@
+body {
+    background-color: aliceblue ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #355;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+footer{
+    background-color: #333 ;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+.BannerPublicitario{
+    background-image: url(Banner.png);
+    background-size: 100% 100%;
+    background-position-y: 125px 0;
+    text-align: center;
+    padding: 140px 0;
+}
+.tarjeta{
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 30px;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 90px;
+}
